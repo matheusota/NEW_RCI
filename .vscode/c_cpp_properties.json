@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/CVRPSEP/include/**",
+                "/home/matheus/Programs/gurobi1102/linux64/include/**",
+                "/opt/uw/gurobi/8.1.1/include/**"
+            ],
+            "defines": [
+                "BCP_RCSP_IS_FOUND"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "C_Cpp.intelliSenseCacheSize": 0,
+            "browse": {
+                "path": [],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
